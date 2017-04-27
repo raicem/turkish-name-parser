@@ -1,0 +1,27 @@
+{
+    "name": "raicem/turkish-name-parser",
+    "type": "library",
+    "description": "Parsing and validating Turkish names.",
+    "keywords": [
+        "validation", "name validation"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cem Ünalan",
+            "email": "unalancem@gmail.com",
+            "homepage": "http://raicem.github.io",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raicem\\": "src/"
+        },
+
+        "files": ["src/helpers.php"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    }
+}
