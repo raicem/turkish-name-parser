@@ -13,7 +13,7 @@ use Raicem\NameParser;
 $parser = new NameParser;
 $name = $parser->parse('Ahmet Yılmaz');
 
-// test weather the name was valid
+// test whether the name was valid
 $name->isValid();
 
 // get the result as array
